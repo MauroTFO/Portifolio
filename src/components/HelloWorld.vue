@@ -13,8 +13,8 @@ defineProps({
     <h3>
       Sou um programador FullStack, porém mais focado no FrontEnd. Estudante do Instituto Federal Pernambuco, Campus Igarassu. <br />
       <a href="https://instagram.com/maurinhuoff" ><img src="/src/assets/instagram.png" width="30" height="30" /></a> |
-      <a href="https://github.com/maurotfo" ><img src="src/assets/placa-do-github.png" width="30" height="30" /></a> |
-      <a href="https://linkedin.com/in/maurinhu" ><img src="src/assets/linkedin.png" width="30" height="30" /></a> |
+      <a href="https://github.com/maurotfo" ><img src="/src/assets/placa-do-github.png" width="30" height="30" /></a> |
+      <a href="https://linkedin.com/in/maurinhu" ><img src="/src/assets/linkedin.png" width="30" height="30" /></a> |
     </h3>
   </div>
 </template>
