@@ -11,7 +11,7 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Sou um programador FullStack, porém mais focado no FrontEnd. Estudante do Instituto Federal Pernambuco, Campus Igarassu. <br />
+      Sou um programador FullStack, porém mais focado no FrontEnd. Estudante do Instituto Federal de Pernambuco, Campus Igarassu. <br />
       <a href="https://instagram.com/maurinhuoff" ><img src="/src/assets/instagram.png" width="30" height="30" /></a> |
       <a href="https://github.com/maurotfo" ><img src="/src/assets/placa-do-github.png" width="30" height="30" /></a> |
       <a href="https://linkedin.com/in/maurinhu" ><img src="/src/assets/linkedin.png" width="30" height="30" /></a> |
@@ -22,7 +22,7 @@ defineProps({
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 2.1em;
   top: -10px;
 }
 
