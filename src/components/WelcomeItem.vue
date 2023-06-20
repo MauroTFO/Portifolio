@@ -28,6 +28,8 @@ i {
   display: flex;
   place-items: center;
   place-content: center;
+  align-items: center;
+  justify-content: center;
   width: 32px;
   height: 32px;
   color: var(--color-text);
@@ -49,6 +51,9 @@ h3 {
   i {
     top: calc(50% - 25px);
     left: -26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     border: 1px solid var(--color-border);
     background: var(--color-background);

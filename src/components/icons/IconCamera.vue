@@ -2,7 +2,6 @@
 <template>
   <picture>
     <source srcset="/src/assets/camera-white.png" media="(prefers-color-scheme:dark)" />
-    <img src="/src/assets/camera.png" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
-      class="iconify iconify--mdi" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" />
+    <img src="/src/assets/camera.png" role="img" class="iconify iconify--mdi" width="26" height="26" preserveAspectRatio="xMidYMid meet" />
   </picture>
 </template>

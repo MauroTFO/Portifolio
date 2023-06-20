@@ -14,7 +14,7 @@ import SupportIcon from './icons/IconTecnologia.vue'
     </template>
     <template #heading>Projetos</template>
     <a href="https://github.com/maurotfo"> Veja meus projetos</a>
-    pessoais, projetos em parceria com instituições e empresas.
+    pessoais ou projetos em parceria com instituições e empresas.
   </WelcomeItem>
 
   <WelcomeItem>
@@ -25,7 +25,7 @@ import SupportIcon from './icons/IconTecnologia.vue'
 
     Veja minhas
     <a href="">Fotos</a>
-    em projetos e em eventos.
+    em projetos e eventos.
 
     <br />
   </WelcomeItem>
@@ -55,6 +55,6 @@ import SupportIcon from './icons/IconTecnologia.vue'
       <SupportIcon />
     </template>
     <template #heading>Tecnologias</template>
-    <a href="">Tecnologias</a> que tenho experiência ou ainda estou estudando.
+    <a href="">Tecnologias</a> que tenho experiência ou estou estudando.
   </WelcomeItem>
 </template>
