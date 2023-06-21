@@ -17,7 +17,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    scale: 2;
+    scale: 1.1;
   }
 }
 
