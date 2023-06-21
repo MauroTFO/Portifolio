@@ -4,7 +4,7 @@ import ProjectIcon from './icons/IconProject.vue'
 import CameraIcon from './icons/IconCamera.vue'
 import AulaIcon from './icons/IconAula.vue'
 import SobreIcon from './icons/IconSobre.vue'
-import SupportIcon from './icons/IconTecnologia.vue'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import SupportIcon from './icons/IconTecnologia.vue'
       <ProjectIcon />
     </template>
     <template #heading>Projetos</template>
-    <a href="https://github.com/maurotfo"> Veja meus projetos</a>
+    <RouterLink to="/projetos"> Veja meus projetos</RouterLink>
     pessoais ou projetos em parceria com instituições e empresas.
   </WelcomeItem>
 
@@ -24,7 +24,7 @@ import SupportIcon from './icons/IconTecnologia.vue'
     <template #heading>Fotos</template>
 
     Veja minhas
-    <a href="">Fotos</a>
+    <RouterLink to="/fotos">Fotos</RouterLink>
     em projetos e eventos.
 
     <br />
@@ -36,7 +36,7 @@ import SupportIcon from './icons/IconTecnologia.vue'
     </template>
     <template #heading>Aulas</template>
     Dou
-    <a href="">Aulas</a>
+    <RouterLink to="/aulas">Aulas</RouterLink>
     como hobby. Tá aí uma coisa que me faz bem e ajudam no meu conhecimento.
   </WelcomeItem>
 
@@ -47,14 +47,6 @@ import SupportIcon from './icons/IconTecnologia.vue'
     <template #heading>Sobre</template>
 
     Saiba mais
-    <a href="">Sobre </a>mim.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>Tecnologias</template>
-    <a href="">Tecnologias</a> que tenho experiência ou estou estudando.
+    <RouterLink to="/sobre">Sobre </RouterLink>mim.
   </WelcomeItem>
 </template>

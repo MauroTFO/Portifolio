@@ -11,8 +11,9 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Sou um programador FullStack, porém mais focado no FrontEnd. Estudante do Instituto Federal de Pernambuco, Campus
+      Sou um programador FullStack, porém mais <br/> focado  no FrontEnd. Estudante do Instituto <br/> Federal de Pernambuco, Campus
       Igarassu. <br />
+      <br />
       <div style="display: inline_block">
         <img align="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg">
         <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg">
@@ -49,4 +50,5 @@ h3 {
   .greetings h3 {
     text-align: left;
   }
-}</style>
+}
+</style>
