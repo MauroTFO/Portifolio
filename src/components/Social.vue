@@ -39,7 +39,15 @@ header {
 .redes {
   display: flex;
   padding-right: 2.2em;
+  margin-top: 0.5em;
   gap: 0.3em;
+}
+
+@media (max-width: 1030px) {
+  .redes {
+    margin-top: -1.5em;
+    padding-right: 0.2em;
+  }
 }
 
 .logo {
