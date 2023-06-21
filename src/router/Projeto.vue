@@ -1,7 +1,7 @@
 <script setup>
-import AulaComponent from '../components/AulaComponent.vue';
+import ProjetoComponent from '../components/ProjetoComponent.vue';
 </script>
 
 <template>
-    <AulaComponent />
+    <ProjetoComponent />
 </template>
