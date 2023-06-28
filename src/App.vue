@@ -1,5 +1,4 @@
 <script setup>
-import Home from '@/router/Home.vue'
 </script>
 
 <template>
