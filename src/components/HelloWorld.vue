@@ -56,6 +56,7 @@ h3 {
     display: flex;
     place-items: center;
     flex-flow: column wrap;
+    margin-right: none;
   }
 }
 

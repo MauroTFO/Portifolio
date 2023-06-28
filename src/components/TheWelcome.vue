@@ -58,7 +58,13 @@ section {
   width: 35em;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 650px) {
+  section {
+    width: 15em;
+  }
+}
+
+@media (max-width: 1024px) {
   section {
     width: 25em;
   }
