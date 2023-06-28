@@ -49,7 +49,7 @@ header {
     place-items: center;
     flex-flow: column wrap;
     margin-right: none;
-    width: 15em;
+    width: 10em;
   }
 }
 
