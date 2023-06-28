@@ -8,9 +8,9 @@ import TheWelcome from './TheWelcome.vue'
     <div class="caixa">
       <img alt="logo" class="logo" src="../assets/homem.png" width="155" height="155" />
       <div class="redes">
-        <a href="https://instagram.com/maurinhuoff"><img src="/src/assets/instagram.png" width="30" height="30" /></a>
-        <a href="https://github.com/maurotfo"><img src="/src/assets/placa-do-github.png" width="30" height="30" /></a>
-        <a href="https://linkedin.com/in/maurinhu"><img src="/src/assets/linkedin.png" width="30" height="30" /></a>
+        <a href="https://instagram.com/maurinhuoff"><img src="/src/assets/instagram.png" width="30" height="30" /></a> 
+        <a href="https://github.com/maurotfo"><img src="/src/assets/placa-do-github.png" width="30" height="30" /></a> 
+        <a href="https://linkedin.com/in/maurinhu"><img src="/src/assets/linkedin.png" width="30" height="30" /></a> 
       </div>
     </div>
     <div class="wrapper">
@@ -36,6 +36,10 @@ header {
   align-content: center;
 }
 
+.wrapper {
+  margin-right: 2em;
+}
+
 .redes {
   display: flex;
   padding-right: 2.2em;
@@ -43,16 +47,15 @@ header {
   gap: 0.3em;
 }
 
-@media (max-width: 650px) {
-  HelloWorld {
+  @media (max-width: 650px) {
+  h3 {
     display: flex;
     place-items: center;
     flex-flow: column wrap;
     margin-right: none;
-    width: 10em;
+    width: 17em;
   }
 }
-
 
 @media (max-width: 1030px) {
   .redes {
