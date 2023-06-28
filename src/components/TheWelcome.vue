@@ -60,7 +60,7 @@ section {
 
 @media (max-width: 650px) {
   section {
-    width: 10em;
+    width: 8em;
   }
 }
 
