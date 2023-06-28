@@ -5,15 +5,18 @@
         </section>
 
         <section>
-            <RouterLink to="/" class="voltar" ><img src="../assets/seta-voltar.png" alt="voltar" width="35" height="35"></RouterLink>
+            <RouterLink to="/">
+                <picture>
+                    <source srcset="../assets/seta-voltar-white.png" media="(prefers-color-scheme:dark)" />
+                    <img src="../assets/seta-voltar.png" alt="voltar" width="35" height="35">
+                </picture>
+            </RouterLink>
         </section>
     </main>
 </template>
 
 <style scoped>
-
 .voltar {
     cursor: pointer;
 }
-
 </style>
