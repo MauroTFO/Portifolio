@@ -57,7 +57,7 @@ h3 {
     place-items: center;
     flex-flow: column wrap;
     margin-right: none;
-    width: 15em;
+    width: 17em;
   }
 }
 
@@ -70,6 +70,6 @@ h3 {
 
   .greetings h1,
   .greetings h3 {
-    text-align: left;
+    text-align: center;
   }
 }</style>
