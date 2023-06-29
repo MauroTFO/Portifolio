@@ -21,19 +21,16 @@ main {
     place-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-   flex-flow: column;
   }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1024px) {
   main {
     display: flex;
     place-items: center;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
 }
