@@ -58,15 +58,9 @@ section {
   width: 35em;
 }
 
-@media (max-width: 650px) {
-  section {
-    width: 8em;
-  }
-}
-
 @media (max-width: 1024px) {
   section {
-    width: 25em;
+    width: 17em;
   }
 }
 </style>
